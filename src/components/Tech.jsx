@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Tech() {
+const Tech = ()=> {
   return (
     <div>Tech</div>
   )
 }
+export default Tech

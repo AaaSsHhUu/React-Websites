@@ -1,31 +1,31 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+// import {
+//     mobile,
+//     backend,
+//     creator,
+//     web,
+//     javascript,
+//     typescript,
+//     html,
+//     css,
+//     reactjs,
+//     redux,
+//     tailwind,
+//     nodejs,
+//     mongodb,
+//     git,
+//     figma,
+//     docker,
+//     meta,
+//     starbucks,
+//     tesla,
+//     shopify,
+//     carrent,
+//     jobit,
+//     tripguide,
+//     threejs,
+//   } from "../assets";
   
-  export const navLinks = [
+  const navLinks = [
     {
       id: "about",
       title: "About",
@@ -262,4 +262,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { navLinks, services, technologies, experiences, testimonials, projects };
